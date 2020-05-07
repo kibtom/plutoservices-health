@@ -1,0 +1,65 @@
+img {
+    border: 0;
+    width: 100%;
+    height: auto
+}
+
+/*To push the container down due to the fixed-top and setting the banner */
+.adjust-top
+{
+    margin-top: 70px;
+}
+.adjust-banner-height
+{
+    max-height: 400px;
+    min-height: auto;
+    
+}
+.adjust-banner-width
+{
+    max-width: 300px;
+    min-width: 85%;
+}
+.jumbo-color
+{
+    background-color: purple;
+}
+.adjust-body-font
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.centred
+{
+    margin-left: 340px
+}
+
+.facebook {
+    height: 35px;
+    width: 35px
+}
+.banner-border{
+   border: 3px solid #0065bd;
+}
+.div-full 
+{
+    margin: 0px;
+}
+.ul li
+{
+    color: red;
+}
+body {
+    background-color: azure;
+}
+.to-bounce {   
+    color: cadetblue;
+}
+.bounce{
+    color: green;
+    background-color: hotpink;
+
+}
+.val-error
+{
+  color: red;
+}

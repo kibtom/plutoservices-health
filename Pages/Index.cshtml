@@ -1,0 +1,123 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div id="banner" class="carousel slide" data-interval="3500" data-ride="carousel">
+    <ul class="carousel-indicators">
+        <li data-target="#banner" data-slide-to="0" class="active"></li>
+        <li data-target="#banner" data-slide-to="1"></li>
+        <li data-target="#banner" data-slide-to="2"></li>
+        <li data-target="#banner" data-slide-to="3"></li>
+    </ul>
+<div class="jumbotron bg-primary card text-white mb-3 adjust-banner-height rounded-circle">
+    <div class="carousel-inner mt-4">
+        <div class="carousel-item active">
+            <div class="container">
+             <img src="images/banner_1.png" alt="dominicialiary">
+            </div>
+        </div>
+        <div class="carousel-item">
+             <div class="container">           
+            <img src="images/health_care.jpg" alt="autism care">
+            </div>
+        </div>
+        <div class="carousel-item">
+            <div class="container">
+              <img src="images/banner_4.png" alt="living in care">
+            </div>
+        </div>
+         <div class="carousel-item">
+            <div class="container adjust-banner-width">
+              <img src="images/autism_3.jpg" alt="living in care">
+            </div>
+        </div>
+    </div>
+         <a class="carousel-control-prev" href="#banner" data-slide="prev">
+             <span class="carousel-control-prev-icon"></span>
+         </a>
+
+         <a class="carousel-control-next" href="#banner" data-slide="next">
+             <span class="carousel-control-next-icon"></span>
+         </a>
+
+</div>
+</div>
+<div>
+<div class="bounced">
+<h2 class="text-center"><u>About PlutoBV health care</u></h2>
+</div>
+<p />Pluto BV Health Care division deals with the recruitment of temporary and permanent social care jobs for the public and private sectors, supplying staff, in the main,
+to local authorities, NHS and private residential homes. The division is dedicated to providing an exceptionally high standard of service to meet the needs of the vulnerable adults
+and children, which the division's workers care for.
+<p />
+
+Across our branch network we mainly supply carers covering the full range of patient conditions, including EMI, Learning Disabilities,
+Challenging Behaviour, Social Work and residential homes. What you can expect:
+<ul>
+    <li>Stringent vetting and screening including Criminal Records Bureau checks</li>
+    <li>One stop-shop for social care workers covering a range of patient conditions</li>
+    <li>Coverage of all social social care disciplines including NHS, pre-school nurseries and care homes</li>
+    <li>Care standards compliant service</li>
+    <li>Comprehensive experience of TUPE and effective transfer management of outgoing supplier's staff.</li>
+    <li>Speedy response from dedicated account manager 24 hours a day, 7 days a week</li>
+    <li>Ongoing performance measurement including bespoke client management information feedback.</li>
+    <li>Flexibility in administration in both invoicing and review documentation.</li>
+ </ul>
+ </div>
+ <h2 class="text-center"><u>Our Services Includes</u></h2>
+ <br>
+
+@*use bootstraps cards: card-deck or card-group*@
+<div class="row">
+    
+ <div class="col-lg-6 rounded-circle" style="background-color: blanchedalmond">
+        <h2>Live-in care</h2>
+        <img src="~/images/health_care.jpg" />
+        @*<p />A positive and low cost alternative to a care home, live-in care gives you the personal, household and social support you need, either on a temporary or permanent basis.
+*@
+        <p />This service gives you the security and peace of mind to continue living the life you choose in the comfort of your own home, with someone
+        always on hand to give you the help and support you need.
+
+        <p>
+            <a class="btn btn-success" href="~/Contact">Enquire &raquo;</a>
+        </p>
+    </div>
+
+
+    <div  id="test" class="col-lg-6 rounded-circle" style="background-color: blanchedalmond">
+        <h2>Domicialiary care</h2>
+        <img src="~/images/home_health.jpg" />
+        <p>
+            Domiciliary care is provided to people who still live in their own homes but require additional support with activities,
+            including household tasks, personal care and any other activity that allows them to 
+            maintain both their independence and quality of life.<br /><br /><br />
+        </p>
+            <a class="btn btn-success" href="~/Contact">Enquire &raquo;</a>
+        
+    </div>
+
+<div class="col-lg-6 rounded-circle" style="background-color: blanchedalmond" >
+        <h2>Companionship Care</h2>
+
+        <img src="~/images/domiciliary-care-2.jpg" />
+        <p />@*Companionship care is combatting loneliness and isolation with regular company and engaging companionship.*@
+        According to Age UK, almost a million older people can often go for more than a month without speaking to anyone at
+        all and we wholeheartedly share their assertion that no-one should have no-one.<br />
+         <a class="btn btn-success" asp-area="" asp-page="/Contact">Enquire &raquo;</a>
+    </div>
+
+
+    <div class="col-lg-6 rounded-circle" style="background-color: blanchedalmond">
+        <h2>Autism</h2>
+         <img src="~/images/autism_3.jpg" /> 
+        @*<p />A positive and low cost alternative to a care home, live-in care gives you the personal, household and social support you need, either on a temporary or permanent basis.
+*@
+        <p />We cater for the needs of individuals who have a diagnosis of Autism Spectrum Disorders (ASD), 
+        complex needs and behaviours which challenges others. <br /><br />
+            <a class="btn btn-success" href="~/Contact">Enquire &raquo;</a>
+        
+    </div>
+
+</div>
